@@ -2,68 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/rick-and-morty-app/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/rick-and-morty-app/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/rick-and-morty-app/favicon-16x16.png" />
-    <link rel="manifest" href="/rick-and-morty-app/site.webmanifest" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rick and Morty Database</title>
-    <script type="module" crossorigin src="/rick-and-morty-app/assets/index-BYhgxuhk.js"></script>
-    <link rel="stylesheet" crossorigin href="/rick-and-morty-app/assets/index-l5zeHNKD.css">
+    <title>Rick and Morty App</title>
+    <script type="module" crossorigin src="/rick-and-morty-app/assets/index-_JHnfCMm.js"></script>
+    <link rel="stylesheet" crossorigin href="/rick-and-morty-app/assets/index-CDwsLMKz.css">
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <img
-          class="header__logo"
-          src="/rick-and-morty-app/assets/idpCAPKzOI_1776584797471%20(1)-Bj-1heDc-Bj-1heDc.png"
-          alt=""
-        />
-        <h1 class="header__title">Rick and Morty Explorer</h1>
-        <p class="header__subtitle">
-          Search characters, episodes and locations form Rick and Morty univers
-        </p>
-      </div>
-    </header>
-    <main class="main">
-      <div class="container">
-        <form action="" class="form">
-          <label for="name">Name: </label>
-          <input type="text" name="name" id="name" />
-
-          <label for="status">Status:</label>
-          <select name="status" id="status">
-            <option value="">-</option>
-            <option value="alive">Alive</option>
-            <option value="Dead">Dead</option>
-            <option value="unknown">Unknown</option>
-            <option value="">All</option>
-          </select>
-
-          <button type="submit" id="submit">Search</button>
-          <button type="reset" id="clear">Reset</button>
-        </form>
-        <form action="" class="form2">
-          <label for="episode">Episode:</label>
-          <input
-            type="text"
-            name="episode"
-            id="episode"
-            placeholder="Episode number/name"
-          />
-
-          <button type="submit">Search Episode</button>
-          <button type="reset" id="clear-episode">Reset</button>
-        </form>
-      </div>
-      <div id="episode-info"></div>
-      <div id="characters-container"></div>
-      <div id="loading" class="spinner"></div>
-      <button id="load-more">Load more</button>
-    </main>
+    <div id="app"></div>
   </body>
 </html>
