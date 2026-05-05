@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as *;
+
+html * {
+  font-family: $primary-font;
+}
+
+body {
+  background-image: url(../../src/assets/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
